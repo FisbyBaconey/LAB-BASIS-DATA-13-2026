@@ -71,6 +71,11 @@ SELECT DISTINCT country AS "Negara Pelanggan" FROM ClassicModels.Customers
 ORDER BY country ASC
 LIMIT 5 OFFSET 5;
 
+-- NOMOR XTRA
+SELECT productName, productLine, MSRP FROM ClassicModels.Products
+ORDER BY productLine ASC, MSRP DESC;
+
+
 
 -- ------------------------------------------------------------------------------+
 -- DATABASE CLASSICMODELS
